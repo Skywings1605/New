@@ -226,7 +226,6 @@ export const Main = () => {
             <section id="contactus">
             <div className="btm" >
             <div className="icns">
-
                 <a href="https://www.facebook.com/ifbeastwood" target={1} className="fb"><img src={"https://cdn-icons-png.flaticon.com/512/4494/4494479.png"} alt="" /></a>
                 <a href="" target={1}><img src={"https://cdn-icons-png.flaticon.com/512/4494/4494481.png"} alt="" /></a>
                 <a href="https://instagram.com/ifbeastwood_blr?igshid=YmMyMTA2M2Y=" target={1}><img src={"https://cdn-icons-png.flaticon.com/512/2111/2111463.png"} alt="" /></a>
@@ -235,7 +234,7 @@ export const Main = () => {
                 </div>
                 <div className="address">
                     <p>Sy Nos. 31/7, 31/8, 31/11 & 35, Bagalur Village, Sulibele Hobli, Hoskote Taluk, Bangalore Rural – 562114</p>
-                    <p>Contact us: +91 9606795107</p>
+                    <p>Contact us: +91 9707 822 822 / +91 9606 021 328</p>
                     <h4>Rera No. PRM/KA/RERA/1250/304/PR/200219/003291</h4>
                 </div>
                 <hr />
@@ -245,12 +244,7 @@ export const Main = () => {
                     
                 </div>   
             </div>
-            </section>
-            
-            
-          
-                
-            
+            </section>     
         </div>
     )
 }
