@@ -240,8 +240,7 @@ export const Main = () => {
                 <hr />
                 <div className="last">
                     <p>Strategic Partner</p>
-                    <img className="induslogo" src={indus} alt="" />
-                    
+                    <img className="induslogo" src={indus} alt="" />                  
                 </div>   
             </div>
             </section>     
