@@ -14,7 +14,7 @@ import {
 
 export default function Slides() {
   return (
-    <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel" data-mdb-pause="false">
   <div class="carousel-indicators">
     <button
       type="button"
@@ -43,17 +43,18 @@ export default function Slides() {
       aria-label="Slide 1"
     ></button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-mdb-interval="3000">
+  <div class="carousel-inner" data-mdb-pause="false">
+    <div class="carousel-item active" data-mdb-interval="3000" data-mdb-pause="false">
       <img src={banner} class="d-block w-100" alt="Wild Landscape"/>
+      
     </div>
-    <div class="carousel-item" data-mdb-interval="3000">
+    <div class="carousel-item" data-mdb-interval="3000" data-mdb-pause="false">
       <img src={banner1} class="d-block w-100" alt="Camera"/>
     </div>
-    <div class="carousel-item" data-mdb-interval="3000">
+    <div class="carousel-item" data-mdb-interval="3000" data-mdb-pause="false">
       <img src={banner2} class="d-block w-100" alt="Exotic Fruits"/>
     </div>
-    <div class="carousel-item" data-mdb-interval="3000">
+    <div class="carousel-item" data-mdb-interval="3000" data-mdb-pause="false">
       <img src={banner3} class="d-block w-100" alt="Camera"/>
     </div>
   </div>
